@@ -4,7 +4,7 @@ A clean, responsive, and user-friendly bundle selection UI that allows users to 
 
 ## 📸 Preview
 
-![Bundle Selector UI Screenshot](preview.png) <!-- Optional: add a screenshot of the UI -->
+![Bundle Selector UI Screenshot](preview.png)
 
 ## 🚀 Features
 
