@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bundle Selector</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Heading -->
+        <div class="heading-wrapper">
+            <div class="line"></div>
+            <h1>YAY! It's BOGO</h1>
+            <div class="line"></div>
+        </div>
+
+        <!-- Bundle Options -->
+        <div class="bundle-options">
+
+            <!-- Bundle: 1 Unit -->
+            <div class="bundle" data-pairs="1">
+                <input type="radio" name="bundle" />
+                <div class="bundle-header">
+                    <div class="ellipse">
+                        <div class="dot"></div>
+                    </div>
+                    <div class="unit-block">
+                        <div class="unit-info">
+                            <div class="unit-top">
+                                <span class="pair-count">1 Unit</span>
+                                <span class="discount">10% Off</span>
+                            </div>
+                            <span class="standard-price">Standard Price</span>
+                        </div>
+                    </div>
+                    <div class="price-container">
+                        <span class="price">$10.00 USD</span>
+                        <span class="original-price">$24.00 USD</span>
+                    </div>
+                </div>
+
+                <div class="bundle-details">
+                    <div class="product-option">
+                        <div class="option-selectors with-number">
+                            <div class="option-number">#1</div>
+                            <div class="selector-group">
+                                <div class="selector-label">Size</div>
+                                <select>
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                </select>
+                            </div>
+                            <div class="selector-group">
+                                <div class="selector-label">Colour</div>
+                                <select>
+                                    <option>Black</option>
+                                    <option>White</option>
+                                    <option>Blue</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bundle: 2 Units-->
+            <div class="bundle selected" data-pairs="2">
+                <input type="radio" name="bundle" checked />
+                <div class="ribbon-wrapper">
+                    <div class="ribbon">MOST POPULAR</div>
+                </div>
+                <div class="bundle-header">
+                    <div class="ellipse">
+                        <div class="dot"></div>
+                    </div>
+                    <span class="pair-count">2 Unit</span>
+                    <span class="discount">20% Off</span>
+                    <div class="price-container">
+                        <span class="price">$18.00 USD</span>
+                        <span class="original-price">$24.00 USD</span>
+                    </div>
+                </div>
+
+                <div class="bundle-details">
+                    <!-- Unit 1 -->
+                    <div class="product-option">
+                        <div class="option-selectors with-number">
+                            <div class="option-number">#1</div>
+                            <div class="selector-group">
+                                <div class="selector-label">Size</div>
+                                <select>
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                </select>
+                            </div>
+                            <div class="selector-group">
+                                <div class="selector-label">Colour</div>
+                                <select>
+                                    <option>Black</option>
+                                    <option>White</option>
+                                    <option>Blue</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Unit 2 -->
+                    <div class="product-option">
+                        <div class="option-selectors with-number">
+                            <div class="option-number">#2</div>
+                            <div class="selector-group">
+                                <div class="selector-label">Size</div>
+                                <select>
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                </select>
+                            </div>
+                            <div class="selector-group">
+                                <div class="selector-label">Colour</div>
+                                <select>
+                                    <option>Black</option>
+                                    <option>White</option>
+                                    <option>Blue</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bundle: 3 Units -->
+            <div class="bundle" data-pairs="3">
+                <input type="radio" name="bundle" />
+                <div class="bundle-header">
+                    <div class="ellipse">
+                        <div class="dot"></div>
+                    </div>
+                    <span class="pair-count">3 Unit</span>
+                    <span class="discount">30% Off</span>
+                    <div class="price-container">
+                        <span class="price">$24.00 USD</span>
+                        <span class="original-price">$36.00 USD</span>
+                    </div>
+                </div>
+
+                <div class="bundle-details">
+                    <!-- Unit 1 -->
+                    <div class="product-option">
+                        <div class="option-selectors with-number">
+                            <div class="option-number">#1</div>
+                            <div class="selector-group">
+                                <div class="selector-label">Size</div>
+                                <select>
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                </select>
+                            </div>
+                            <div class="selector-group">
+                                <div class="selector-label">Colour</div>
+                                <select>
+                                    <option>Black</option>
+                                    <option>White</option>
+                                    <option>Blue</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Unit 2 -->
+                    <div class="product-option">
+                        <div class="option-selectors with-number">
+                            <div class="option-number">#2</div>
+                            <div class="selector-group">
+                                <div class="selector-label">Size</div>
+                                <select>
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                </select>
+                            </div>
+                            <div class="selector-group">
+                                <div class="selector-label">Colour</div>
+                                <select>
+                                    <option>Black</option>
+                                    <option>White</option>
+                                    <option>Blue</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Unit 3 -->
+                    <div class="product-option">
+                        <div class="option-selectors with-number">
+                            <div class="option-number">#3</div>
+                            <div class="selector-group">
+                                <div class="selector-label">Size</div>
+                                <select>
+                                    <option>S</option>
+                                    <option>M</option>
+                                    <option>L</option>
+                                </select>
+                            </div>
+                            <div class="selector-group">
+                                <div class="selector-label">Colour</div>
+                                <select>
+                                    <option>Black</option>
+                                    <option>White</option>
+                                    <option>Blue</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Summary Row -->
+        <div class="summary-row">
+            <div class="shipping-info">Free Delivery</div>
+            <div class="total">Total: <strong>$18.00 USD</strong></div>
+        </div>
+
+        <button class="add-to-cart">+ Add to Cart</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
